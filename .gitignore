@@ -1,0 +1,27 @@
+*.pyc
+*~
+__pycache__
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Visual Studio Code settings
+.vscode
+*.code-workspace
+
+# Keys
+*.key
+key.py
+
+# Sqlite databases
+*.sqlite
+
+# Others
+test.py
