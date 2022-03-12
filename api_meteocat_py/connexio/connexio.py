@@ -1,6 +1,6 @@
 import requests
 from typing import Union, List
-from excepcions import MeteocatApiError
+from ..excepcions import MeteocatApiError
 
 
 class Connexio:

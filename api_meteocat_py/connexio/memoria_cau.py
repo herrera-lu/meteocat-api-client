@@ -1,5 +1,5 @@
-from connexio.connexio import Connexio
 from requests_cache import install_cache, DO_NOT_CACHE
+from .connexio import Connexio
 
 
 def habilita_memoria_cau(caducitat_cau: int = 3600) -> None:

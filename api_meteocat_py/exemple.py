@@ -10,7 +10,7 @@ def main():
 
     # Creem un objecte connexio que farà les peticions a l'API del meteocat
     # utilitzant el token que tenim emmagatzemat a la constant KEY del
-    # fitxer key.py (veure el fitxer key_template.py).
+    # fitxer key.py (veure el fitxer key_plantilla.py).
     connexio = Connexio(KEY)
 
     # Crearem un objecte per a cada xarxa de la que volguem consultar
