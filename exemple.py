@@ -1,6 +1,6 @@
-from connexio import Connexio, habilita_memoria_cau
-from xarxes import Pronostic, XEMA, Quotes, Referencia, XDDE
-from excepcions import MeteocatApiError, MeteocatLocalError
+from api_meteocat_py.connexio import Connexio, habilita_memoria_cau
+from api_meteocat_py.xarxes import Pronostic, XEMA, Quotes, Referencia, XDDE
+from api_meteocat_py.excepcions import MeteocatApiError, MeteocatLocalError
 from key import KEY
 
 
