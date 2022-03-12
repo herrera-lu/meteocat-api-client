@@ -4,7 +4,7 @@ setup(
     name="api-meteocat-py",
     version="0.1.0",
     description="Client que consumeix dades de l'API REST del Servei Meteorològic de Catalunya",
-    url="https://github.com/herrera-lu/api-meteocat",
+    url="https://github.com/herrera-lu/api-meteocat-py",
     author="Lluís Herrera",
     author_email="lluis.herrera@outlook.com",
     license="MIT",
