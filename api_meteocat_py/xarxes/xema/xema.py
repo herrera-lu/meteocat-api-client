@@ -1,4 +1,4 @@
-from xarxes.base import XarxaBase
+from ..base import XarxaBase
 from .auxiliars import Auxiliars
 from .estadistics import Estadistics
 from .calcul_multivariable import CalculMultivariable

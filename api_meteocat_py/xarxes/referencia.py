@@ -1,5 +1,5 @@
 from typing import List
-from xarxes.base import XarxaBase
+from .base import XarxaBase
 
 
 class Referencia(XarxaBase):

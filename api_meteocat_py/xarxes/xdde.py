@@ -1,6 +1,6 @@
 from typing import List
-from xarxes.base import XarxaBase
-from helpers.utils import formateja_valors_data
+from .base import XarxaBase
+from ..helpers.utils import formateja_valors_data
 
 
 class XDDE(XarxaBase):

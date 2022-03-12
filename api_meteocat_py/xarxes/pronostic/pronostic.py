@@ -1,4 +1,4 @@
-from xarxes.base import XarxaBase
+from ..base import XarxaBase
 from .prediccio import Prediccio
 from .uvi import UVI
 from .pirineu import Pirineu

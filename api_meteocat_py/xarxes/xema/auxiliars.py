@@ -1,6 +1,6 @@
 from typing import Union, List
-from excepcions import MeteocatLocalError
-from helpers.utils import formateja_valors_data, neteja_diccionari, genera_info
+from ...excepcions import MeteocatLocalError
+from ...helpers.utils import formateja_valors_data, neteja_diccionari, genera_info
 
 
 class Auxiliars:

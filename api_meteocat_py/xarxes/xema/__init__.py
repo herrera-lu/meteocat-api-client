@@ -1,1 +1,1 @@
-from xarxes.xema.xema import XEMA
+from ..xema.xema import XEMA

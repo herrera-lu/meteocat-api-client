@@ -1,5 +1,5 @@
 from typing import List
-from excepcions import MeteocatLocalError
+from ..excepcions import MeteocatLocalError
 
 
 def neteja_diccionari(diccionari: dict, *args: List[dict]) -> dict:

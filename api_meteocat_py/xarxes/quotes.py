@@ -1,4 +1,4 @@
-from xarxes.base import XarxaBase
+from .base import XarxaBase
 
 
 class Quotes(XarxaBase):

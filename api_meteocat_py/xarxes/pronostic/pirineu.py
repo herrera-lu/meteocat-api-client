@@ -1,6 +1,6 @@
 from typing import List
-from excepcions import MeteocatLocalError
-from helpers.utils import formateja_valors_data, neteja_diccionari, genera_info
+from ...excepcions import MeteocatLocalError
+from ...helpers.utils import formateja_valors_data, neteja_diccionari, genera_info
 
 class Pirineu:
     def pirineu_pics_prediccio(self, slug_pic:str, any:int, mes:int, dia:int) -> List[dict]:

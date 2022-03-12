@@ -1,6 +1,6 @@
 from typing import Union, List
-from excepcions import MeteocatLocalError
-from helpers.utils import neteja_diccionari, genera_info, formateja_valors_data
+from ...excepcions import MeteocatLocalError
+from ...helpers.utils import neteja_diccionari, genera_info, formateja_valors_data
 
 
 class CalculMultivariable:

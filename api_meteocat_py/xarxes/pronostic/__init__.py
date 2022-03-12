@@ -1,1 +1,1 @@
-from xarxes.pronostic.pronostic import Pronostic
+from ..pronostic.pronostic import Pronostic
