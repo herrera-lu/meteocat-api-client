@@ -10,7 +10,8 @@ def habilita_memoria_cau(caducitat_cau: int = 3600) -> None:
     """
     Habilita la memòria cau i configura el temps de caducitat de les dades que
     conté. La consulta de quotes no s'emmagatzema a la memòria cau i les consultes
-    de referència s'emmagatzemen durant un dia (86400s).
+    de referència s'emmagatzemen durant un dia (86400s). Per defecte, la memòria
+    cau s'emmagatzema en una base de dades sqlite a la carpeta temporal del sistema.
 
 
     Args:
