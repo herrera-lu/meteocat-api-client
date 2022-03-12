@@ -9,4 +9,5 @@ __author__ = "Lluís Herrera"
 __credits__ = "Martí Batlles per les tasques de testeig"
 
 from .connexio import Connexio
+from .connexio import habilita_memoria_cau
 from .xarxes import Pronostic, Quotes, Referencia, XDDE, XEMA
