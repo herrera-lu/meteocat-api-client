@@ -43,7 +43,7 @@ class Mesurades:
             params = {"codi_estacio": codi_estacio}
         return self._aconsegueix(recurs, params)
 
-    def mesurades_x_totes_dades_d_1_estacio(
+    def mesurades_x_totes_variables_d_1_estacio(
         self, codi_estacio: str, any: int, mes: int, dia: int
     ) -> List[dict]:
         """
