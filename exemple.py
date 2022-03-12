@@ -40,7 +40,7 @@ def main():
     print("------------------------------------\n")
 
     xema = XEMA(connexio)
-    # Provoquem un error (el codi de variable de la petició no és correcte)
+    # Provoquem un error (el codi de variable de la petició no és correcte).
     print(
         'xema.representatives_codis_estacions_x_un_municipi_i_una_variable("081691", "31")'
     )
@@ -53,7 +53,7 @@ def main():
         print(e)
         print("------------------------------------\n")
 
-    # Ara consultem una variable que sí que existeix
+    # Ara consultem una variable que sí que existeix.
     print(
         'xema.representatives_codis_estacions_x_un_municipi_i_una_variable("081691", "32")'
     )
