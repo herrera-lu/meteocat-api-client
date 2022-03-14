@@ -1,0 +1,11 @@
+appdirs==1.4.4
+attrs==21.4.0
+cattrs==1.10.0
+certifi==2021.10.8
+charset-normalizer==2.0.12
+idna==3.3
+requests==2.27.1
+requests-cache==0.9.3
+six==1.16.0
+url-normalize==1.4.3
+urllib3==1.26.8
